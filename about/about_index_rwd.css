@@ -1,0 +1,70 @@
+@media screen and (min-width:320px) and (max-width:575px){
+    article h1{
+        font-size: 40px;
+    }
+
+    .share_title h2{
+        font-size: 25px;
+    }
+
+    article h3{
+        font-size: 20px;
+       
+    }
+
+    article h4{
+        font-size: 12px;
+       
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767px){
+    article h1{
+        font-size: 65px;
+    }
+
+    .share_title h2{
+        font-size: 40px;
+    }
+
+    article h3{
+        font-size: 30px;
+       
+    }
+
+    article h4{
+        font-size: 16px;
+       
+    }
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+    article h1{
+        font-size: 75px;
+    }
+
+    .share_title h2{
+        font-size: 44px;
+    }
+
+    article h3{
+        font-size: 32px;
+       
+    }
+
+    article h4{
+        font-size: 20px;
+       
+    }
+
+
+}
+
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+@media screen and (min-width:1200px){
+   
+}

@@ -1,0 +1,227 @@
+@import "../commom/clean.css";
+@import "../commom/font.css";
+@import "../commom/footer.css";
+@import "./news_header.css";
+@keyframes  swing  {
+    15% { transform:  translateX(15px); }
+    40% { transform:  translateX(-15px); }
+    65% { transform:  translateX(5px); }
+    85% { transform:  translateX(-5px); }
+    100% { transform:  translateX(0px); }
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 0px;
+    margin:0 auto;
+    font-family: "Adobe Gothic";
+}
+
+/* 以下是banner */
+
+div.banner{
+    width:100%;
+    object-fit: fill;
+    /* border: 1px solid blue; */
+  }
+  
+div.banner img{ 
+     width:100%;
+   }
+
+
+
+
+main{
+    max-width:1140px;
+    background-image:
+    url("./images/wood-3\ .png");
+    background-attachment:fixed;
+    background-repeat:repeat;
+    margin: 0 auto;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+
+div.img_order_1140{
+    max-width:1140px;
+    margin: 0 auto;
+    /* border: 1px solid blue; */
+}
+
+
+/* 以下置頂文章 */
+
+article a{
+    z-index: 999;
+    text-decoration: none;
+    outline: none;
+}
+
+
+section.top_news div.read_more{
+    max-width:1140px;
+    margin-top:70px;
+    position: relative;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+
+section.top_news div.read_more img{
+    width:100%;
+}
+
+section.top_news div img:hover{
+    transform: scale(1.1);
+    transition: all .5s ease-in-out;
+    
+}
+
+/* 跟h1一樣大 */
+section.top_news div.read_more p{
+    font-size: 90px;  
+    color:white;
+    text-shadow: 2px 2px 3px grey;
+    position: absolute;
+    bottom: 40px;
+    left:20px;
+}
+
+
+section.top_news article h1{
+    font-size: 90px;  
+    color:white;
+    background-color: #00B8FF;
+    line-height:1.4;
+    margin-bottom: 15px;
+    margin: 0px 10px;
+}
+
+
+section.top_news article h2{
+    font-size: 50px;
+    color:#B9B8B8;
+    padding:15px 0px 15px 0px;
+    margin: 0px 10px;
+    /* border: 1px solid blue; */
+
+}
+
+section.top_news article h3{
+    font-size: 32px;
+    color:black;
+    line-height:1.2;
+    margin: 0px 10px;
+}
+
+section.top_news a.news_button{
+    margin-left: 10px;
+}
+
+
+/* 以下4文章 */
+section.four_news{
+    max-width: 1140px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    /* border: 1px solid green; */
+}
+
+section.four_news article{
+    max-width: 530px;
+    text-align: left;
+    margin:20px 5px;
+}
+
+section.four_news div{
+    overflow: hidden;
+}
+
+
+section.four_news div img{
+    width:100%;
+}
+
+section.four_news div img:hover{
+transform: scale(1.1);
+transition: all .5s ease-in-out;
+}
+
+
+section.four_news article h3{
+    font-size: 32px;
+    padding:15px 0px 15px 0px;
+    color:#B9B8B8;
+    line-height:1.2;
+}
+
+section.four_news article h2{
+    font-size: 50px;
+    color:#00B8FF;
+    padding:15px 0px ;
+    /* border: 1px solid blue; */
+
+}
+
+section.four_news article h4{
+    font-size: 20px;
+    color:black;
+    line-height:1.3;
+}
+
+article a.news_button{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    width: 230px;
+    background-color:#F9AF31;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    line-height: 50px;
+    color:white;
+    margin:20px 0px 100px 0px;
+}
+
+article a img{
+    width:8%;
+}
+
+article a.news_button:hover{
+    animation : swing 1s 1;
+    background-color: #fbc02d;
+}
+
+/* 以下最後文章按鈕 */
+article.last_button{
+    margin: 0 auto;
+}
+
+article.last_button a{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    width:100%;
+    background-color:#F9AF31;
+    border-radius: 20px;
+    border: none;
+    font-size:50px;
+    line-height: 80px;
+    color:white;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+article.last_button a img{
+    width:40px;
+}
+
+article.last_button a:hover{
+    animation : swing 1s 1;
+    background-color: #fbc02d;
+}

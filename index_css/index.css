@@ -1,0 +1,368 @@
+@import "../commom/clean.css";
+@import "../commom/font.css";
+@import "../commom/footer.css";
+@import "./index_header.css";
+@keyframes  swing  {
+    15% { transform:  translateX(15px); }
+    40% { transform:  translateX(-15px); }
+    65% { transform:  translateX(5px); }
+    85% { transform:  translateX(-5px); }
+    100% { transform:  translateX(0px); }
+}
+@keyframes blink_animation {
+    0%{
+      opacity: 1;
+    }
+    25%{
+      opacity: 0;
+    }
+    50%{
+      opacity: 1;
+    }
+    75%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+  
+  [data-aos="my-blink-animation"] {
+  }
+  [data-aos="my-blink-animation"].aos-animate{
+    animation-name: blink_animation;
+    animation-duration: 1s;
+  }
+
+*{
+    box-sizing: border-box;
+    margin:0 auto;
+}
+
+body{
+    font-size: 0px;
+    font-family: "Adobe Gothic";
+}
+
+/* 以下是banner */
+
+div.banner{
+  width: 100%;
+  object-fit: fill;
+  /* display: block; */
+}
+
+div.banner img{
+   width:100%;
+}
+
+/*試背景圖做法 */
+    /* div.banner{
+    max-width: 100%;
+    height:703px;
+    background-color: #FFFFDD;
+    background-image:
+    url("../index_images/banner.jpg");
+} */
+
+
+main{
+    max-width:1140px;
+    background-image:
+    url("../index_images/wood-3.png");
+    background-attachment:fixed;
+    background-repeat:repeat;
+    margin: 0 auto;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+
+div.img_order_1140{
+    max-width:1140px;
+    margin: 0 auto;
+    /* border: 1px solid blue; */
+}
+
+
+
+
+
+/* 以下是小男孩 */
+
+section.about{
+    max-width: 1140px;
+    position: relative;
+    /* border: 1px solid pink; */
+}
+
+
+div.about_img{
+    max-width: 1140px;
+    /* border: 1px solid red; */
+
+}
+
+div.about_img img{
+    width: 100%;
+    /* border: 1px solid black;  */
+}
+
+
+article.abo {
+    max-width: 1140px;
+    position: absolute;
+    right: 25px;
+    top:320px;
+    text-align: right;
+    margin-top:50px;
+    z-index: 998;
+    /* border: 1px solid yellow; */
+    
+}
+
+
+article h1{
+    font-size: 90px;
+    color:#00B8FF;
+    text-shadow: 2px 2px 3px  white;
+    line-height: .4;
+    /* border: 1px solid red; */
+}
+
+article span{
+    font-size: 70px;
+    color:black;
+    text-shadow: 2px 2px 3px  white;
+    padding-right: 10px;
+    /* border: 1px solid green; */
+}
+
+article h2{
+    font-size: 50px;
+    color:black;
+    text-shadow: 2px 2px 3px  white;
+    padding:0px 0px 15px 0px;
+    /* border: 1px solid blue; */
+
+}
+
+article a{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    width: 440px;
+    background-color:#F9AF31;
+    border-radius: 20px;
+    border: none;
+    font-size:50px;
+    line-height: 80px;
+    color:white;
+    margin:20px 0px 0px 0px;
+}
+
+article a img{
+    width:8%;
+}
+
+article a:hover{
+    animation : swing 1s 1;
+    background-color: #fbc02d;
+}
+
+
+
+
+/* 以下口味 */
+section.flavours{
+    max-width: 1140px;
+    position: relative;
+    margin-top:-300px;
+    z-index: 99;
+    /* border: 1px solid pink; */
+}
+
+div.flavours_img{
+    max-width: 1140px;
+}
+
+div.flavours_img img{
+    width:100%;
+}
+
+article.fla{
+    text-align: left;
+    position: absolute;
+    top:0px;
+    right: 180px;
+    margin:0 auto; 
+}
+
+article span.icon{
+   max-width: 100px;
+   margin-top: 10px;
+   display: inline-block;
+   /* border: 1px solid green; */
+}
+
+article span.icon img{
+    width:100%;
+}
+
+
+
+
+/* 以下聯繫 */
+section.contact{
+    max-width: 1140px;
+    position: relative;
+    margin-top:-170px;
+    z-index: 1;
+}
+
+div.contact_img{
+    max-width: 1140px;
+}
+
+div.contact_img img{
+    width:100%;
+}
+
+article.con{
+    position: absolute;
+    top:200px;
+    right:25px;
+}
+
+article.con a{
+    width: 500px;
+}
+
+article.con span{
+    max-width: 70px;
+    position: absolute;
+    left:0px;
+    bottom:20px;
+    z-index: 100;
+}
+
+article.con span img{
+    width:120%
+}
+
+
+
+
+/* 以下消息 */
+section.news{
+    max-width: 1140px;
+    position: relative;
+    margin-top:-240px;
+    z-index: 99;
+    /* border: 1px solid pink; */
+
+}
+
+
+div.news_img{
+    max-width: 1140px;
+}
+
+div.news_img img{
+    width:100%;
+}
+
+article.news_area{
+    max-width: 1140px;
+    text-align: left;
+    position: absolute;
+    bottom:80px;
+    left: 25px;
+    /* border:1px solid black; */
+}
+
+article.news_area span{
+    max-width: 150px;
+    position: absolute;
+    bottom:60px;
+    z-index: 0;
+}
+
+article.news_area span img{
+    width:100%;
+}
+
+article.news_area a{
+    width: 480px;
+    text-align: left;
+    padding-left: 25px;
+}
+
+
+article.news_area div.couple_title{
+    max-width: 380px;
+    position: absolute;
+    bottom: 120px;
+    left:150px;
+    /* border:1px solid blue; */
+
+}
+
+article.news_area div h1{
+    font-size: 90px;
+    color:white;
+    text-shadow: 5px 5px 8px grey;
+    line-height: 1;
+}
+
+
+/* 以下mail */
+
+article.mail{
+    max-width: 1140px;
+    margin: 190px 0px;
+    text-align: center;
+    line-height: 2;
+}
+
+article.mail h1{
+    line-height: 1;
+}
+
+article.mail h3{
+    font-size: 32px;
+    color:black;
+    text-shadow: 2px 2px 3px  white;
+    /* border: 1px solid red; */
+}
+
+
+form input{
+    width:500px;
+    height:50px;
+    border-radius: 10px;
+    border: 1.5px solid #707070;
+    opacity: .5;
+    font-size: 25px;
+    padding-left: 20px;
+    outline: none;
+}
+
+form button{
+    width:20%;
+    height:50px;
+    border-radius: 10px;
+    background-color: #F9AF31;
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-left: 15px;
+}
+
+form button:hover{
+    animation : swing 1s 1;
+    background-color: #fbc02d;
+    outline: none;
+    cursor: pointer;
+}

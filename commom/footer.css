@@ -1,0 +1,43 @@
+@import "../commom/clean.css";
+@import "../commom/font.css";
+
+*{
+  box-sizing: border-box;
+  margin:0 auto;
+}
+
+footer{
+  width:100%;
+  background-color:#FFAB91;
+  margin:0 auto;
+}
+
+div.end_site{
+  max-width:1140px;
+  margin:0 auto;
+  text-align: center;
+}
+
+
+div.share a{
+  display:inline-block;
+  max-width: 25px;
+  margin: 14px 10px;
+  /* border:1px solid blue; */
+}
+
+div.share a.link_fb{
+  max-width: 15px;
+}
+
+
+div.share img{
+  width:100%;
+}
+
+
+div.copyright{
+  font-size: 10px;
+  color:white;
+  padding-bottom: 14px;
+}

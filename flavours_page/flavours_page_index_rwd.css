@@ -1,0 +1,132 @@
+@media screen and (min-width:320px) and (max-width:575px){
+         /* 麵包屑 */
+    /* 跟h4一樣大 */
+    h4.bread_crumb_link{
+        font-size: 12px;
+        width:150px;
+      }
+  
+      /* 商品第一區 */
+      section h1{
+          font-size: 40px;
+  
+      }
+      
+      section h3{
+          font-size: 20px;
+      }
+      
+      section h4{
+          font-size: 12px;
+      }
+
+      section.vanilla_int li{
+        max-width: 280px;
+        margin:90px 0px 0px 0px; 
+      }
+
+      section.vanilla_int li.word{
+        max-width: 280px;
+      }
+
+      /* 商品第二區 */
+      section.vanilla_label ul> li:nth-child(1){
+        order: 1;
+    }
+    
+    section.vanilla_label ul > li:nth-child(2){
+        order: 2;
+    }
+    /* 跟h4一樣大 */
+    section.vanilla_label li.word_label{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767px){
+     /* 麵包屑 */
+    /* 跟h4一樣大 */
+    h4.bread_crumb_link{
+        font-size: 16px;
+        width:200px;
+      }
+  
+      /* 商品第一區 */
+      section h1{
+          font-size: 65px;
+  
+      }
+      
+      section h3{
+          font-size: 30px;
+      }
+      
+      section h4{
+          font-size: 16px;
+      }
+
+      section.vanilla_int li{
+        margin:90px 0px 0px 0px; 
+      }
+
+      /* 商品第二區 */
+      section.vanilla_label ul> li:nth-child(1){
+        order: 1;
+      }
+    
+    section.vanilla_label ul > li:nth-child(2){
+        order: 2;
+      }
+    /* 跟h4一樣大 */
+    section.vanilla_label li.word_label{
+        font-size: 16px;
+      }
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+     /* 麵包屑 */
+    /* 跟h4一樣大 */
+    h4.bread_crumb_link{
+        font-size: 20px;
+      }
+  
+      /* 商品第一區 */
+      section h1{
+          font-size: 75px;
+  
+      }
+      
+      section h3{
+          font-size: 32px;
+      }
+      
+      section h4{
+          font-size: 20px;
+      }
+
+      section.vanilla_int li{
+        margin:90px 0px 0px 0px; 
+      }
+
+      /* 商品第二區 */
+      section.vanilla_label ul> li:nth-child(1){
+        order: 1;
+    }
+    
+    section.vanilla_label ul > li:nth-child(2){
+        order: 2;
+    }
+    /* 跟h4一樣大 */
+    section.vanilla_label li.word_label{
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width:992px) and (max-width:1199px){
+   
+}
+
+@media screen and (min-width:1200px){
+   
+}

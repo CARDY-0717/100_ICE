@@ -1,0 +1,399 @@
+
+@media screen and (min-width:320px) and (max-width:575px){
+
+  /* 字體調整 */
+  article h1{
+    font-size: 40px;
+    }
+
+    article span{
+        font-size: 30px;
+    }
+
+    article h2{
+        font-size: 25px;
+    }
+
+    article.mail h3{
+        font-size: 20px;
+   
+    }
+
+    form button{
+        font-size: 20px;
+    }
+   /* 按鈕調整字體 */
+    article a{
+        font-size: 25px;
+        width: 210px;
+        height:50px;
+        line-height: 50px;
+        border-radius: 15px;
+        margin:0px;
+    }
+
+    /* 小男孩字按鈕一包調整 */
+
+    article.abo {
+        top:100px; 
+    }
+
+    /* 口味調整 */
+
+    section.flavours{
+        margin-top:-50px;
+
+    }
+
+    article.fla{
+        left: 10px;
+        top:20px;
+    }
+
+    article.fla h2{
+      min-width: 300px;
+    }
+
+    article span.icon{
+        max-width: 50px;
+     }
+     
+
+    /* 聯繫調整 */
+    section.contact{
+        margin-top:-30px;
+     
+    }
+
+    article.con{
+        top:95px;
+        
+    }
+
+    article.con a{
+        font-size: 25px;
+        width: 230px;
+        height:50px;
+        line-height: 50px;
+        border-radius: 15px;
+        margin:0px;
+    }
+
+
+    article.con span{
+        left:0px;
+        bottom:30px;
+        max-width: 40px;
+    }
+
+
+ /* 消息調整 */
+
+    section.news{
+        margin-top:-60px;
+
+    }
+
+    article.news_area{
+        bottom:-10px;
+    }
+
+    article.news_area a{
+        font-size: 25px;
+        width: 230px;
+        height:50px;
+        line-height: 50px;
+        border-radius: 15px;
+        margin:0px;
+    }
+
+    article.news_area span.icon{
+        max-width: 70px;
+        left: 10px;
+     }
+
+     article.news_area div.couple_title{
+        bottom: 60px;
+        left:70px;
+
+    }
+
+
+    article.news_area div h1{
+        font-size: 40px;
+    }
+
+
+    /* mail調整 */
+    article.mail{
+        max-width: 300px;
+        padding-top:75px;
+        margin:0 auto;
+    }
+
+    form{
+        margin-top:10px;
+        margin-bottom: 75px;
+    }
+
+    form input{
+        width:180px;
+        height:30px;
+        border-radius: 10px;
+        font-size: 14px;
+        padding-left: 5px;
+    }
+
+    form button{
+        width:100px;
+        height:30px;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+
+
+}
+
+
+@media screen and (min-width:576px) and (max-width:767px){
+    
+        /* 字體調整 */
+        article h1{
+        font-size: 65px;
+        }
+    
+        article span{
+            font-size: 50px;
+        }
+    
+        article h2{
+            font-size: 40px;
+        }
+    
+        article.mail h3{
+            font-size: 30px;
+       
+        }
+    
+        form button{
+            font-size: 20px;
+        }
+       /* 按鈕調整字體 */
+        article a{
+            font-size: 40px;
+            width: 360px;
+            border-radius: 25px;
+        }
+    
+        /* 小男孩字按鈕一包調整 */
+    
+        article.abo {
+            top:150px; 
+        }
+    
+        /* 口味調整 */
+    
+        section.flavours{
+            margin-top:-110px;
+
+        }
+    
+        article.fla{
+            top:35px;
+            left: 25px;
+        }
+
+        article span.icon{
+            max-width: 75px;
+         }
+         
+    
+        /* 聯繫調整 */
+        section.contact{
+            margin-top:-50px;
+         
+        }
+    
+        article.con{
+            top:85px;
+            
+        }
+    
+        article.con a{
+            width: 370px;
+            border-radius: 25px;
+        }
+    
+    
+        article.con span{
+            left:0px;
+            bottom:45px;
+            max-width: 55px;
+        }
+
+    
+     /* 消息調整 */
+    
+        section.news{
+            margin-top:-120px;
+    
+        }
+        article.news_area{
+            bottom:0px;
+        }
+
+        article.news_area a{
+            width: 360px;
+            border-radius: 15px;
+
+        }
+    
+        article.news_area span.icon{
+            max-width: 95px;
+            left: 30px;
+         }
+
+         article.news_area div.couple_title{
+            bottom: 100px;
+            left:130px;
+
+        }
+
+
+        article.news_area div h1{
+            font-size: 65px;
+        }
+
+
+        /* mail調整 */
+        article.mail{
+            max-width: 360px;
+            padding-top:95px;
+            margin:0 auto;
+        }
+
+        form{
+            margin-bottom: 95px;
+        }
+
+        form input{
+            width:230px;
+            height:40px;
+            border-radius: 10px;
+            font-size: 16px;
+            padding-left: 5px;
+        }
+
+        form button{
+            width:115px;
+            height:40px;
+            border-radius: 10px;
+            font-size: 16px;
+        }
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+
+    /* 字體調整 */
+    article h1{
+    font-size: 75px;
+    }
+
+    article span{
+        font-size: 60px;
+    }
+
+    article h2{
+        font-size: 44px;
+    }
+
+    article.mail h3{
+        font-size: 32px;
+   
+    }
+
+    form button{
+        font-size: 20px;
+    }
+/* 按鈕調整字體 */
+    article a{
+        font-size: 44px;
+        width: 380px;
+    }
+
+    /* 小男孩字按鈕一包調整 */
+
+    article.abo {
+        top:300px; 
+    }
+
+    /* 口味調整 */
+
+    section.flavours{
+        margin-top:-140px;
+    }
+
+    article.fla{
+        top:70px;
+        left: 25px;
+    }
+
+    /* 聯繫調整 */
+    section.contact{
+        margin-top:-100px;
+     
+    }
+
+    article.con{
+        top:120px;
+        
+    }
+
+    article.con a{
+        width: 400px;
+    }
+
+
+    article.con span{
+        left:-20px;
+        bottom:20px;
+
+    }
+
+ /* 消息調整 */
+
+    section.news{
+        margin-top:-140px;
+
+    }
+    article.news_area a{
+        width: 370px;
+    }
+
+    article.news_area div h1{
+        font-size: 75px;
+    }
+
+
+}
+
+
+
+@media screen and (min-width:992px) and (max-width:1199px){
+     /* 消息調整 */
+
+     section.news{
+        margin-top:-200px;
+
+    }
+ 
+}
+
+
+@media screen and (min-width:1200px){
+   
+}
+
+

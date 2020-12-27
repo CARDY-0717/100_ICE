@@ -1,0 +1,188 @@
+@import "../commom/clean.css";
+@import "../commom/font.css";
+@import "../commom/footer.css";
+@import "./contact_header.css";
+@keyframes  swing  {
+    15% { transform:  translateX(15px); }
+    40% { transform:  translateX(-15px); }
+    65% { transform:  translateX(5px); }
+    85% { transform:  translateX(-5px); }
+    100% { transform:  translateX(0px); }
+}
+
+[data-aos="rotate-animation"] {
+    transform: rotate(0deg);
+    transition: transform 1s;
+  }
+  [data-aos="rotate-animation"].aos-animate{
+    transform: rotate(360deg);
+  }
+  
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 0px;
+    margin:0 auto;
+    font-family: "Adobe Gothic";
+}
+
+/* 以下是banner */
+
+div.banner{
+    width:100%;
+    object-fit: fill;
+    /* border: 1px solid blue; */
+  }
+  
+div.banner img{ 
+     width:100%;
+   }
+
+   main{
+    max-width:1140px;
+    background-image:
+    url("./images/wood-3.png");
+    background-attachment:fixed;
+    background-repeat:repeat;
+    margin: 0 auto;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+
+div.img_order_1140{
+    max-width:1140px;
+    margin: 0 auto;
+    /* border: 1px solid blue; */
+}
+
+
+/* 以下map區 */
+section.map{
+    max-width: 1140px;
+    margin: 0 auto;    
+}
+
+section.map article{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 70px;
+}
+
+section.map div.map_word{
+    margin: 0 auto;
+    text-align: left;
+    width:90%;
+    /* border: 1px solid red; */
+}
+
+section.map article iframe{
+    margin: 0 auto;
+    border:1px solid red;
+}
+
+article h1{
+    font-size: 90px;  
+    color:#00B8FF;
+    line-height: 1.7;
+}
+
+article h3{
+    font-size: 32px;
+    color:black;
+    line-height:1.5;
+}
+
+article span{
+    display: inline-block;
+    max-width: 20px;
+    margin:0px 20px 0px 0px;
+}
+article span img{
+    width:100%;
+}
+
+/* 以下touch 表格標題 */
+
+div.tough_title h2{
+    width: 100%;
+    background-color: #00B8FF;
+    text-align: center;
+    font-size: 50px;
+    color:white;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    padding:15px 0px;
+}
+
+/* 以下touch 表格開始 */
+
+article.tough_form form{
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+/* 跟h3一樣 */
+article.tough_form form input{
+    font-family: "Adobe Gothic";
+    width:80%;
+    border-radius: 20px;
+    font-size: 32px;
+    line-height: 2.2;
+    padding-left: 20px;
+    outline: none;
+    opacity: .5;
+    margin-bottom: 30px;
+    border: 1.5px solid #707070;
+}
+
+
+form div{
+    width:80%;
+    margin:0 auto;
+    /* border: 1px solid red; */
+}
+
+/* 跟h3一樣 */
+article.tough_form form textarea{
+    font-family: "Adobe Gothic";
+    width:100%;
+    height: 400px;
+    border-radius: 20px;
+    font-size: 32px;
+    padding-left: 20px;
+    outline: none;
+    opacity: .5;
+    margin-bottom: 30px;
+    border: 1.5px solid #707070;
+}
+
+article.tough_form button{
+    display:block;
+    font-family: "Adobe Gothic";
+    width:200px;
+    border-radius: 10px;
+    background-color: #F9AF31;
+    border: none;
+    font-size: 25px;
+    color: white;
+    margin-right:0px;
+    margin-bottom: 70px;
+}
+
+
+
+article.tough_form button img{
+    width: 10%;
+}
+
+article.tough_form button:hover{
+    animation : swing 1s 1;
+    background-color: #fbc02d;
+    outline: none;
+    cursor: pointer;
+}
+

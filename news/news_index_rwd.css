@@ -1,0 +1,139 @@
+@media screen and (min-width:320px) and (max-width:575px){
+    section.top_news div.read_more p{
+        font-size: 40px;
+    }
+    
+    section.top_news article h1{
+        font-size: 40px;
+    }
+    
+    section.top_news article h2{
+        font-size: 25px;
+    }
+    
+    section.top_news article h3{
+        font-size: 20px;
+    }
+
+     /* 以下4文章 */
+
+   section.four_news article h3{
+        font-size: 20px;
+    }
+
+   section.four_news article h2{
+        font-size: 25px;
+    }
+
+   section.four_news article h4{
+        font-size: 12px;
+   }
+
+   article a.news_button{
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+     /* 最後按鈕 */
+   article.last_button a{
+    font-size: 25px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 15px;
+    }
+
+   article.last_button a img{
+    width:20px;
+    }
+
+}
+
+
+
+@media screen and (min-width:576px) and (max-width:767px){
+    section.top_news div.read_more p{
+        font-size: 65px;
+    }
+    
+    section.top_news article h1{
+        font-size: 65px;
+    }
+    
+    section.top_news article h2{
+        font-size: 40px;
+    }
+    
+    section.top_news article h3{
+        font-size: 30px;
+    }
+
+     /* 以下4文章 */
+
+     section.four_news article h3{
+        font-size: 30px;
+    }
+
+    section.four_news article h2{
+        font-size: 40px;
+    }
+
+   section.four_news article h4{
+        font-size: 16px;
+   }
+
+  /* 最後按鈕 */
+  article.last_button a{
+    font-size: 40px;
+    border-radius: 25px;
+}
+
+article.last_button a img{
+    width:30px;
+}
+
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:991px){
+    section.top_news div.read_more p{
+        font-size: 75px;
+    }
+    
+    section.top_news article h1{
+        font-size: 75px;
+    }
+    
+    section.top_news article h2{
+        font-size: 44px;
+    }
+    
+    section.top_news article h3{
+        font-size: 32px;
+    }
+
+    /* 以下4文章 */
+
+    section.four_news article h3{
+        font-size: 32px;
+    }
+
+    section.four_news article h2{
+        font-size: 44px;
+    }
+
+   section.four_news article h4{
+        font-size: 20px;
+   }
+
+}
+
+@media screen and (min-width:992px) and (max-width:1199px){
+}
+
+@media screen and (min-width:1200px){
+   
+}

@@ -1,0 +1,16 @@
+@import "./clean.css";
+@font-face{
+  font-family: "Adobe Gothic";
+  src: url("./font/AdobeGothicStd-Bold.otf");
+}
+
+/* start from here */
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 0px;
+  font-family: "Adobe Gothic";
+}
